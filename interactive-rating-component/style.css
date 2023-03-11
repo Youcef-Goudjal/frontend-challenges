@@ -17,8 +17,9 @@ body {
   font-family: "Overpass", sans-serif;
   margin: auto;
   min-height: 100vh;
-  display: grid;
-  place-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 main {
@@ -63,7 +64,7 @@ main {
 }
 
 h1 {
-  color: hsl(0, 0%, 100%);
+  color: grid hsl(0, 0%, 100%);
 }
 
 #float-container {
@@ -122,6 +123,9 @@ h1 {
 }
 
 footer {
+  position: absolute;
+  bottom: 10px;
+  width: 100vw;
   font-size: 18px;
   text-align: center;
   color: hsl(228, 45%, 44%);
