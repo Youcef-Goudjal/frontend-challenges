@@ -64,7 +64,7 @@ main {
 }
 
 h1 {
-  color: grid hsl(0, 0%, 100%);
+  color: white;
 }
 
 #float-container {
