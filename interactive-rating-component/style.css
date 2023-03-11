@@ -126,9 +126,21 @@ footer {
   position: absolute;
   bottom: 10px;
   width: 100vw;
-  font-size: 18px;
+  font-size: 11px;
   text-align: center;
-  color: hsl(228, 45%, 44%);
+  color: white;
   text-align: center;
   padding-top: 100px;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+.attribution a {
+  color: hsl(25, 97%, 53%);
 }
