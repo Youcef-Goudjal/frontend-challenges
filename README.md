@@ -21,3 +21,10 @@ My first challenge
 stack used : **[HTML,CSS,JS]**
 ![Design preview for the Interactive rating component coding challenge](./interactive-rating-component/design/desktop-preview.jpg)
 [Live Demo](https://youcef-goudjal.github.io/frontend-challenges/interactive-rating-component/)
+
+## [3] Product preview card component
+
+**Difficulty [NEWBIE]**
+stack used : **[HTML,CSS,JS]**
+![Design preview for the Interactive rating component coding challenge](./product-preview-card-component/design/desktop-preview.jpg)
+[Live Demo](https://youcef-goudjal.github.io/frontend-challenges/product-preview-card-component)

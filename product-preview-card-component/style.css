@@ -1,0 +1,133 @@
+body,
+main,
+.palet {
+  display: flex;
+}
+
+body,
+.info {
+  flex-direction: column;
+  justify-content: center;
+}
+
+body,
+#prices {
+  align-items: center;
+}
+
+body {
+  min-height: 100vh;
+  background-color: hsl(30, 38%, 92%);
+  font-family: "Montserrat", sans-serif;
+}
+
+#img {
+  background: url(images/image-product-desktop.jpg) center center / cover;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+#img,
+.info {
+  width: 296px;
+}
+
+.info {
+  background-color: hsl(0, 0%, 100%);
+  padding: 31px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+#perfume {
+  text-transform: uppercase;
+  font-size: 11px;
+  letter-spacing: 5px;
+}
+#perfume,
+#information,
+span {
+  color: hsl(228, 12%, 48%);
+}
+h1 {
+  color: hsl(212, 21%, 14%);
+  margin: 21px 0 24px 0;
+}
+h1,
+h2 {
+  font-family: "Fraunces", serif;
+  font-size: 31px;
+}
+
+#information {
+  line-height: 20px;
+}
+#prices {
+  margin: 30px 0;
+}
+h2 {
+  display: inline-block;
+  color: hsl(158, 36%, 37%);
+}
+
+span {
+  text-decoration: line-through;
+  margin-left: 20px;
+}
+
+#add:link,
+#add:visited {
+  width: 100%;
+  background-color: hsl(158, 36%, 37%);
+  color: white;
+  padding: 17px 0;
+  text-align: center;
+  display: block;
+  border-radius: 7px;
+}
+#add:link,
+#add:visited,
+#add:hover,
+#add:active {
+  font-weight: 700;
+}
+#add:hover,
+#add:active {
+  background-color: #1a4031;
+}
+
+a img {
+  width: 13px;
+  margin-right: 10px;
+}
+
+footer {
+  position: absolute;
+  bottom: 5px;
+}
+
+.attribution {
+  font-size: 11px;
+}
+
+.attribution a {
+  color: hsl(158, 36%, 37%);
+}
+
+@media (max-width: 550px) {
+  .palet {
+    flex-direction: column;
+  }
+  #img {
+    background: url(images/image-product-mobile.jpg) center center / cover;
+    width: auto;
+    height: 236px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 0;
+  }
+  .info {
+    width: 354px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+}
